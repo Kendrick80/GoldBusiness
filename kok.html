@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/6b453ced37.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+<style>
+   body {
+  background-color: #0f0e0e;  
+}
+
+h3 {
+  margin: 0;
+}
+
+h3+p {
+  margin-top: 0;
+}
+
+
+
+.wrapper {
+  width: 90%;
+  max-width: 940px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.home-hero {
+  display: grid;
+  grid-gap: 1px;
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.home-hero > * {
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333;
+  color: #fff;
+}
+
+.feature {
+  background-image: url(9f27b826-d07a-4753-8dde-d0fe6023a9f1.jpg);
+  background-position: bottom left;
+  color: #fff;
+}
+
+.photos {
+  background-image: url(pexels-photo-342945.jpeg); 
+  color: #fff;
+}
+
+.news {
+  background-image: url(R\ \(1\).jpg); 
+  color: #fff;
+}
+
+.special {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),url(pexels-michael-steinberg-366551.jpg); 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.special h3,
+.amazing h3{
+  margin-top: auto;
+}
+
+.amazing {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)), url(istockphoto-889286538-612x612.jpg); 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta {
+  background-color: rgb(123,14,34);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+a.spam-button:link {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  display: block;
+  padding: 5px;
+  margin: auto auto 20px;
+  width: 90%;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .home-hero {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .feature {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+  
+  .special {
+    grid-column: 1;
+    grid-row: 3 / 6;
+  }
+  .amazing {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .cta {
+    grid-column: 2;
+    grid-row: 5 / 7;
+  }
+}
+
+@media (min-width: 800px) {
+   .home-hero {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(150px, auto) minmax(150px, auto);
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .feature {
+    grid-column: 1 ;
+    grid-row: 1 / 6;
+  }
+  
+  .special {
+    grid-column: 2;
+    grid-row: 1 / 4;
+  }
+  .amazing {
+    grid-column: 2;
+    grid-row: 4 / 6;
+  }
+  .cta {
+    grid-column: 3;
+    grid-row: 3 / 6;
+  }
+}
+.fa-brands{
+  size:500px;
+}
+</style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="home-hero">
+          <div class="feature">
+            <h3>Meet our CEO</h3>
+            <p>Martha Deam McManus</p>
+          </div>
+          <div class="special">
+            <h3>Layering is an art of form</h3>
+            <p>Quality minerals at an affordable price</p>
+        
+          </div>
+          <div class="amazing">
+            <h3>Worldwide</h3>
+            <p>Our finest gold is sold all over the world</p>
+          </div>
+          <div class="news">
+            <h3>Guarantee</h3>
+            <p>Zino gold is has one of the safest delivery Worldwide</p>
+           
+            
+        
+          </div>
+          <div class="photos"><h3>GLobal franchise</h3>
+            <p>Our finest gold is sold all over the world</p></div>
+          <div class="cta"></p>
+            <a class="spam-button" href="/spam-machine">Sign me up!</a>
+           <span><i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-facebook"></i> 
+                     <i class="fa-solid fa-envelope-open"></i><p>facedeam@gmail.com</p>
+                     <p>Contact us on +233 549876541</p>
+                    </span>
+          </div>
+          
+         
+        
+        </div>
+        </div>
+  </body>
+</html>

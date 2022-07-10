@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppings", sans-serif;
+        
+      }
+
+      .video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      @media (min-aspect-ratio: 16/9) {
+        video {
+          width: 100%;
+          height: auto;
+        }
+      }
+      @media (max-aspect-ratio: 16/9) {
+        video {
+          width: auto;
+          height: 100%;
+        }
+      }
+      h1{
+        color: aliceblue;
+        text-align: center;
+      }
+      p{
+        color:aliceblue;
+        font-size: 20px;
+
+      }
+   .k{
+    text-align: center;
+   }
+    </style>
+  </head>
+  <body>
+    <div class="desk">
+      <video autoplay loop muted plays-inline class="video">
+        <source src="gettyimages-457399808-640_adpp.mp4" type="video/mp4" />
+      </video>
+      <h1>About Us</h1>
+      <p>
+        Zino gold is a mining company company founded in 1995 by Matthew
+        McMaDanus.
+      </p>
+      <br>
+        <p>Over the years this company has established itself in different
+        countries and has gained experience in extracting minerals such as using electrolysis and
+         purifying old with millers process,to ensure the quality of the mineral.
+         </p>
+         <br>
+         <br>
+         <p>Our objective is to provide our clients "I am assured" experience when they purchase our products.</p>
+      </p>
+      <br>
+      <p>Our Emphasis is on clear communication and clear through procedures to ensure that our client'
+        needs is in out top priority
+      </p>
+      <br>
+      <br>
+      <br>
+      <h1>Our Vision</h1>
+      <p class="k">To be a respectable gold minning company beyond expectation always</p>
+      <br>
+      <br>
+      <br>
+      <h1>Our Mission</h1>
+      <p>To procure minerals at competitive pricing provide safe business conditions and delivery
+        goods to our customers within a reasonable time.
+      </p>
+    </div>
+  </body>
+</html>
